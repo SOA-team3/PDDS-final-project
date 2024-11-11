@@ -11,7 +11,7 @@ Clone the repository (or download the files directly)
 
 Install dependencies: Make sure you have Python 3.10 (or aboved) installed.  
 Install the necessary Python packages:  
-```pip install -r requirements.txt```
+```pip install -r requirements.txt```  
 Database setup: Ensure ecom_data.sqlite3 (or the appropriate SQLite database file) is present in the project directory. This database file contains the e-commerce sales data used by the application.  
 
 Run the application: Start the Dash server by running:  
@@ -22,12 +22,12 @@ The application will be available at http://127.0.0.1:8050 in your web browser.
 ## Layout Components
 **Logo**: Displays the company logo at the top of the page.  
 ## Dropdowns:
-**Major Category Select** - Selects the major category for filtering.  
-**Minor Category Select** - Populated based on the selected major category.  
+**Major Category Select**: Selects the major category for filtering.  
+**Minor Category Select**: Populated based on the selected major category.  
 ## Graphs:
-**Total Sales by Country** - A bar chart that shows total sales for each country.  
-**Sales by Month for Minor Category** - A line chart that shows total sales over time for a selected minor category.  
-**Sales Volume vs. Total Sales** - A scatter plot comparing sales volume and total sales by country.  
+**Total Sales by Country**: A bar chart that shows total sales for each country.  
+**Sales by Month for Minor Category**: A line chart that shows total sales over time for a selected minor category.  
+**Sales Volume vs. Total Sales**: A scatter plot comparing sales volume and total sales by country.  
 ## Data Table:
 Displays summary statistics for each country, including sales volume, total sales, average order value, and median order value.
 
