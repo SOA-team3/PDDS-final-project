@@ -66,6 +66,9 @@ d_table = DataTable(
 
 app = dash.Dash(__name__)
 
+# For deployment
+server = app.server
+
 app.layout = html.Div([
   html.Img(src=logo_link,
         style={'margin':'30px 0px 0px 0px' }),
@@ -180,4 +183,4 @@ def update_min_cat_hover(hoverData):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(debug=True)
