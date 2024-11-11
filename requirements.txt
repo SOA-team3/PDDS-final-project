@@ -1,0 +1,8 @@
+# basic
+pandas
+numpy
+
+# visualization
+plotly
+dash
+dash-bootstrap-components
